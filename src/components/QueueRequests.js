@@ -18,11 +18,9 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Avatar from '@material-ui/core/Avatar';
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import Typography from '@material-ui/core/Typography';
 
 import StarIcon from '@material-ui/icons/Star';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 import Done from '@material-ui/icons/Done';
 import Schedule from '@material-ui/icons/Schedule';
 import Cached from '@material-ui/icons/Cached';
@@ -74,12 +72,9 @@ const QueueRequests = (props) => {
   return (
     <div className={classes.root}>
       <List component="nav">
-        <ListItem button onClick={ () => window.location.href = "https://www.instagram.com/flavia.b.bertoni/"}>
-          <Avatar alt="flavia.b.bertoni" src="profile.jpg" style={{height: 60, width: 60}}/>
-          <ListItemText primary="@flavia.b.bertoni" secondary="my portfolio" />
-          {/*<ListItemSecondaryAction>
-            <FavoriteIcon />
-          </ListItemSecondaryAction>*/}
+        <ListItem button onClick={ () => window.location.href = "https://www.instagram.com/flavia.bertoni.art/"}>
+          <Avatar alt="flavia.bertoni.art" src="profile.jpg" style={{height: 60, width: 60}}/>
+          <ListItemText primary="@flavia.bertoni.art" secondary="my portfolio" />
         </ListItem>
         <ListSubheader className={classes.background} component="div">Free Requests Queue</ListSubheader>
         {

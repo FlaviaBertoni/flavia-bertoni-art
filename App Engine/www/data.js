@@ -32,7 +32,7 @@ var data = [
     {
         "text": "@lana_x_zo",
         "secondary": "instagram",
-        "status": 2
+        "status": 1
     },
     {
         "text": "@alexaraymorales",
