@@ -1,2 +1,2 @@
 # flavia-bertoni-art
-Queue of the drawing requests 
+Simple info site
