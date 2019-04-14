@@ -45,7 +45,7 @@ const modalInfo = ({ fullScreen, open, handleClose }) => (
           <p>
             I accept paid commissions and commercial requests, if you are interested to make a commission or commercial request 
             you can contact me by e-mail <a href="mailto:flavia.bertoni.art@gmail.com" target="_top">flavia.bertoni.art@gmail.com</a> or 
-            send me a direct message on my instagram <a href="https://www.instagram.com/flavia.bertoni.art/"> @flavia.bertoni.art </a> 
+            send me a direct message on my instagram <a href="https://www.instagram.com/flavia.bertoni.art/"> @flavia.bertoni.art </a>. 
           </p>
           <p>
             If you appreciate my work you can support me by 
